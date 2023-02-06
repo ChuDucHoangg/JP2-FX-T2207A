@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="GuiDi" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtuser" layoutX="47.0" layoutY="25.0" promptText="User People">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="N_RESIZE" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="txtdetai" layoutX="47.0" layoutY="72.0" promptText="Title" />
+      <TextArea fx:id="txacontent" layoutX="47.0" layoutY="122.0" prefHeight="200.0" prefWidth="160.0" promptText="Content" />
+      <Text fx:id="txtmenu" layoutX="338.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button onAction="#submit" layoutX="47.0" layoutY="339.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="160.0" text="Submit" />
+   </children>
+</Pane>
