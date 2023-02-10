@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93d1a6e4-6952-4acc-8aea-e0d82ee5b715" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T2207A_FX/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T2207A_FX/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T2207A_FX/ThongTin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T2207A_FX/ThongTin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T2207A_FX/thongtin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T2207A_FX/thongtin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhoneList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhoneList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThongTin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThongTin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thongtin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/thongtin.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LN1VRxeZkskL4OM0poLjNCfJpc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.MainPhoneList">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="T2207A_FX" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPhoneList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainPhoneList" />
+      <module name="T2207A_FX" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainPhoneList" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93d1a6e4-6952-4acc-8aea-e0d82ee5b715" name="Changes" comment="" />
+      <created>1675696749729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675696749729</updated>
+    </task>
+    <servers />
+  </component>
+</project>

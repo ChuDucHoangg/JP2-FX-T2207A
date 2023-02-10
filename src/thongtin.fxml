@@ -7,14 +7,20 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ThongTin">
    <children>
-      <TextField fx:id="txtFullName" layoutX="64.0" layoutY="38.0" promptText="Full name" />
-      <TextField fx:id="txtEmail" layoutX="64.0" layoutY="94.0" promptText="Email" />
+      <TextField fx:id="txtFullName" layoutX="64.0" layoutY="140.0" promptText="Full name" />
+      <TextField fx:id="txtEmail" layoutX="64.0" layoutY="203.0" promptText="Email" />
       <Text fx:id="txtInfo" layoutX="395.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thong tin">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Button layoutX="64.0" layoutY="168.0" mnemonicParsing="false" onAction="#submit" prefHeight="26.0" prefWidth="190.0" text="Submit" textFill="#dd1212" />
-      <ListView onMouseClicked="#edit" fx:id="lv" layoutX="300.0" layoutY="85.0" prefHeight="250.0" prefWidth="271.0" />
+      <Button layoutX="64.0" layoutY="291.0" mnemonicParsing="false" onAction="#submit" prefHeight="27.0" prefWidth="160.0" text="Submit" textFill="#dd1212" />
+      <TableView fx:id="tbview" layoutX="278.0" layoutY="79.0" prefHeight="274.0" prefWidth="294.0">
+        <columns>
+          <TableColumn fx:id="cFullname" prefWidth="116.0" text="FullName" />
+          <TableColumn fx:id="cEmail" prefWidth="93.0" text="Emal" />
+            <TableColumn fx:id="cAction" prefWidth="84.0" text="Action" />
+        </columns>
+      </TableView>
    </children>
 </Pane>
