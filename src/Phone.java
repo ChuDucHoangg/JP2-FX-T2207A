@@ -1,10 +1,19 @@
+import javafx.scene.control.Button;
+
 public class Phone {
     String name;
     String telephone;
+    Button edit;
 
     public Phone(String name, String telephone) {
         this.name = name;
         this.telephone = telephone;
+        this.edit = new Button("Edit");
+        this.edit.setOnAction(event -> {
+            PhoneList.editPhoneNumber = this;
+            PhoneList.stTelePhone.setText(this.telephone);
+            PhoneList.stName.setText(this.name);
+        });
     }
 
     public String getName() {
@@ -21,6 +30,14 @@ public class Phone {
 
     public void setTelephone(String telephone) {
         this.telephone = telephone;
+    }
+
+    public Button getEdit() {
+        return edit;
+    }
+
+    public void setEdit(Button edit) {
+        this.edit = edit;
     }
 
     public String toString(){

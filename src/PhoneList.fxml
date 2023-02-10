@@ -5,8 +5,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<Pane fx:controller="PhoneList" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PhoneList">
    <children>
       <Text fx:id="txtInfo" layoutX="375.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DanhSach">
          <font>
@@ -15,8 +14,13 @@
       </Text>
       <TextField fx:id="txtName" layoutX="84.0" layoutY="49.0" promptText="Name" />
       <TextField fx:id="txtTelePhone" layoutX="84.0" layoutY="114.0" promptText="TelePhone" />
-      <Button onAction="#submit" layoutX="189.0" layoutY="173.0" mnemonicParsing="false" text="Submit" />
-      <ListView onMouseClicked="#edit" fx:id="lv" layoutX="314.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
-      <Button onMouseClicked="#sort" layoutX="454.0" layoutY="337.0" mnemonicParsing="false" text="Sort" />
+      <Button layoutX="189.0" layoutY="173.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+      <TableView fx:id="tbview" layoutX="308.0" layoutY="87.0" prefHeight="272.0" prefWidth="243.0">
+        <columns>
+          <TableColumn fx:id="cFullName" prefWidth="81.0" text="FullName" />
+          <TableColumn fx:id="cTelePhone" prefWidth="91.0" text="TelePhone" />
+            <TableColumn fx:id="cAction" prefWidth="70.0" text="Action" />
+        </columns>
+      </TableView>
    </children>
 </Pane>
